@@ -12,5 +12,5 @@ for i in range(442,450):
         print (colored("[++] port %d: open" % (i,) +":" + " => " + getservbyport(i) , 'green'))
      else:
         print (colored("[!!] port %d: close" % (i,) , 'red'))
-print("end")
+///print("end")
      s.close() 
